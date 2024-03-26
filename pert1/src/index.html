@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <div class = "topnavbar">
+            <a class="active" href="index.html">Home</a>
+            <a href="profiles.html">Profiles</a>
+        </div>
+        <style>
+            .topnavbar{
+                background-color: black;
+                overflow: hidden;
+            }
+
+            .topnavbar a {
+                float: left;
+                color:bisque;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 17px;
+            }
+
+            .topnavbar a:hover {
+                background-color: whitesmoke;
+                color: black;
+            }
+
+            .topnavbar a:active {
+                background-color: pink;
+                color: whitesmoke;
+            }
+
+            .personal{
+                background-color: cornflowerblue;
+                color: aliceblue;
+                border: 2px solid black;
+                margin: 20px;
+                padding: 20px;
+            }
+
+            .body {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                min-height: 100vh;
+                margin: 0;
+            }
+
+            .content {
+                justify-content: center;
+            }
+
+            img {
+                max-width: 100%;
+                height: auto;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="content">
+            <picture>
+                <source media="(min-width: 450px)">
+                <img src="https://memorandum.disway.id/upload/474e692646b2e6b37b2d169893ea568f.jpg" alt="Lono">
+                <p>This is Me</p>
+                <p>Spongebob Squarepants</p>
+            </picture>    
+        </div>
+    </body>
+</html>
